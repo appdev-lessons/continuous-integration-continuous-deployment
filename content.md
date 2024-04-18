@@ -91,7 +91,9 @@ jobs:
 
 4. Verify the Workflow
 After pushing, go back to the Actions tab in your GitHub repository.
-You should see the workflow running. If everything is set up correctly, the workflow will execute and show a success status if your tests pass.
+You should see the workflow running. If everything is set up correctly, the workflow will execute and show a success status if your tests pass. Now anytime you create a pull request into the `main` branch it will trigger this workflow.
+
+![](assets/pull-request.png)
 
 ## Additional Considerations
 - **Caching Dependencies**: To speed up the workflow, you can cache your dependencies using the actions/cache step. This reduces the time spent in the installation step on subsequent runs.
