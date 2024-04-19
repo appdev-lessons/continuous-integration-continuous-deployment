@@ -78,6 +78,12 @@ jobs:
       #   run: bin/brakeman -q -w2
       - name: Lint Ruby files
         run: bundle exec rubocop --parallel
+      - name: Lint Javascript files
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm ci
+      - run: npm run lint
 ```
 
 ## Explanation of Key Sections
