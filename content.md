@@ -106,5 +106,44 @@ You should see the workflow running. If everything is set up correctly, the work
 - **Notifications**: You can set up notifications (e.g., email, Slack) to alert you when the CI process fails. This helps keep the team informed about the health of the application.
 - **Deployment**: Once your CI setup is stable, consider adding deployment steps to automate the deployment of your application to your hosting service.
 
+## Playlist
+[Playlist](https://github.com/DPI-WE/playlist) is an index of favorite songs. Follow the contribution guidelines to add your song and practice your pull request skills with github actions.
+
+- Enter your `https://github.com/DPI-WE/playlist/pull/<id>` pull request URL:
+- `https://github.com/DPI-WE/playlist/pull`
+  - Great job!
+- any
+  - Not quite. Make sure the URL looks like: `https://github.com/DPI-WE/playlist/pull/<id>`
+{: .free_text #playlist_pull_request_url title="Playlist Pull Request URL" points="1" answer="1" }
+
+<div class="alert alert-danger mt-2">
+
+After you submit the Pull Request URL here, return to Canvas and submit the URL again in the assignment "Pull Request URL for Playlist".
+
+An instructor will provide additional feedback on your submission there.
+</div>
+
+## Add a GitHub Action CI/CD Flow to an assignment
+Submit the repository URL where you've added a GitHub Action CI/CD Flow and practice your DevOps skills.
+
+- Enter your `https://github.com/` repository URL:
+- `https://github.com/`
+  - Great job!
+- any
+  - Not quite. Make sure the URL looks like: `https://github.com/`
+{: .free_text #github_action_url title="GitHub Action CI/CD Flow URL" points="1" answer="1" }
+
+<div class="alert alert-danger mt-2">
+
+After you submit the Pull Request URL here, return to Canvas and submit the URL again in the assignment "Add a GitHub Action CI/CD Flow to an assignment".
+
+An instructor will provide additional feedback on your submission there.
+</div>
+
 ## Conclusion
 Setting up CI/CD with GitHub Actions empowers your team to catch issues early and deploy confidently. This lesson provided a basic setup, but GitHub Actions is very flexible, allowing you to tailor your workflows to match your development and operational needs perfectly. Always explore further optimizations and tools to integrate into your pipeline for more robust automation.
+
+---
+
+- Approximately how long (in minutes) did this lesson take you to complete?
+{: .free_text_number #time_taken title="Time taken" points="1" answer="any"}
