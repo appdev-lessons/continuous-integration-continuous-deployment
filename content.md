@@ -169,16 +169,16 @@ You should see the workflow running. If everything is set up correctly, the work
 ## Playlist
 [Playlist](https://github.com/DPI-WE/playlist) is an index of favorite songs. Follow the contribution guidelines to add your song and practice your pull request skills with github actions.
 
-- Enter your `https://github.com/DPI-WE/playlist/pull/<id>` pull request URL:
-- `https://github.com/DPI-WE/playlist/pull`
+- Did you add your song in a pull request?
+- Yes
   - Great job!
-- any
-  - Not quite. Make sure the URL looks like: `https://github.com/DPI-WE/playlist/pull/<id>`
-{: .free_text #playlist_pull_request_url title="Playlist Pull Request URL" points="1" answer="1" }
+- No
+  - Please contribute to the repository before continuing.
+{: .choose_best #playlist_pull_request_url title="Playlist Pull Request URL" points="1" answer="1" }
 
 <div class="alert alert-danger mt-2">
 
-After you submit the Pull Request URL here, return to Canvas and submit the URL again in the assignment "Pull Request URL for Playlist".
+Return to Canvas and submit the URL in the assignment "Pull Request URL for Playlist".
 
 An instructor will provide additional feedback on your submission there.
 </div>
@@ -186,16 +186,16 @@ An instructor will provide additional feedback on your submission there.
 ## Add a GitHub Action CI/CD Flow to an assignment
 Submit the repository URL where you've added a GitHub Action CI/CD Flow and practice your DevOps skills.
 
-- Enter your `https://github.com/` repository URL:
-- `https://github.com/`
+- Did you add a GitHub Action CI/CD Flow to an assignment?
+- Yes
   - Great job!
-- any
-  - Not quite. Make sure the URL looks like: `https://github.com/`
-{: .free_text #github_action_url title="GitHub Action CI/CD Flow URL" points="1" answer="1" }
+- No
+  - Please do that before continuing.
+{: .choose_best #github_action_url title="GitHub Action CI/CD Flow URL" points="1" answer="1" }
 
 <div class="alert alert-danger mt-2">
 
-After you submit the Pull Request URL here, return to Canvas and submit the URL again in the assignment "Add a GitHub Action CI/CD Flow to an assignment".
+Return to Canvas and submit the URL in the assignment "Add a GitHub Action CI/CD Flow to an assignment".
 
 An instructor will provide additional feedback on your submission there.
 </div>
