@@ -179,7 +179,7 @@ An instructor will provide additional feedback on your submission there.
 </div>
 
 ## Add a GitHub Action CI/CD Flow to an assignment
-Submit the repository URL where you've added a GitHub Action CI/CD Flow and practice your DevOps skills. Don't worry about adding a lint step. Add a GitHub action to an assignment with a test suite. (eg your assignments with a rake grade step)
+Submit the repository URL where you've added a GitHub Action CI/CD Flow and practice your DevOps skills. Add a `test` step (not a lint step). Add it to an assignment with a test suite. (eg your assignments with a rake grade step)
 
 - Did you add a GitHub Action CI/CD Flow to an assignment?
 - Yes
