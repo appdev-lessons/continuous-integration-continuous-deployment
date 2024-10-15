@@ -49,17 +49,15 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      # Add or replace dependency steps here
       - name: Install Ruby and gems
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
         with:
           bundler-cache: true
-      # Add or replace database setup steps here
       - name: Set up database schema
         run: bin/rails db:schema:load
-      # Add or replace test runners here
-      - name: Run tests
-        run: bundle exec rails test
+      # This runs the tests in the spec/ folder
+      - name: Run rspec tests
+        run: bundle exec rspec
 
   lint:
     runs-on: ubuntu-latest
