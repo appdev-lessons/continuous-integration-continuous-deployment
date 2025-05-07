@@ -160,7 +160,7 @@ You should see the workflow running. If everything is set up correctly, the work
 {: .choose_all #github_actions_benefits title="Benefits of GitHub Actions" points="3" answer="[1, 2, 4]" }
 
 ## Playlist
-[Playlist](https://github.com/DPI-WE/playlist) is an index of favorite songs. Follow the contribution guidelines to add your song and practice your pull request skills with github actions.
+[Playlist](https://github.com/DPI-WE/pr-playlist) is an index of favorite songs. Follow the contribution guidelines to add your song and practice your pull request skills with github actions.
 
 - Did you add your song in a pull request?
 - Yes
